@@ -1,0 +1,24 @@
+------------------------------------------------
+…or create a new repository on the command line      (crear un nuevo repositorio)
+------------------------------------------------
+
+git init
+git add .                                           ( AGREGAR )
+git commit -m "first commit"                        ( cometer-m"1er comentario" )
+
+git branch -M main                                  (Esta creando una RAMA con el nombre main )
+git remote add origin https://github.com/JuancaDG/ultimo_repositorio.git (AGREGAR al REMOTO(web))
+git push -u origin main                             (EMPUJAR-del local(PRINCIPAL) al remoto)
+
+-----------------------------------------------------
+…or push an existing repository from the command line (enviar un repositorio existente desde la línea de comandos)
+-----------------------------------------------------
+git remote add origin https://github.com/JuancaDG/ultimo_repositorio.git
+git branch -M main
+git push -u origin main
+
+---------------------------------------
+…or import code from another repository  (importar código de otro repositorio)
+---------------------------------------
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
